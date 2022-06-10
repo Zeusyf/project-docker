@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 LABEL maintainer="zeusyf <r.zeusyf@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get upgrade -y && apt-get install -y wget
+RUN apt-get update && apt-get upgrade -y && apt-get install -y wget && apt-get -y install libxcb-xinput0 && apt-get -y install libegl1
 
 RUN mkdir build
 WORKDIR build
