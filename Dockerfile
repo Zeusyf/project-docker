@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:focal
 LABEL maintainer="zeusyf <r.zeusyf@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
