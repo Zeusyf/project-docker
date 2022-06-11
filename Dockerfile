@@ -1,4 +1,4 @@
-FROM Debian:latest
+FROM debian:latest
 USER root
 RUN cd /tmp && \
 apt update && \
