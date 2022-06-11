@@ -1,4 +1,4 @@
-debian:buster-slim
+FROM debian:buster-slim
 USER root
 RUN cd /root && \
 apt update && \
